@@ -1,0 +1,8 @@
+ffplay/Debug/
+ffplay/ffplay.vcxproj.user
+ffplay/x64/
+*.xml
+*.sdf
+Debug/
+.vs/
+x64
