@@ -27,7 +27,7 @@
 #define WIN32_LEAN_AND_MEAN
 
 
-  //#include "config.h"
+#include "config.h"
 #include <ctype.h>
 #include <string.h>
 #include <math.h>

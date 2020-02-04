@@ -21,7 +21,6 @@
 
 #include <stdint.h>
 
-
 #include "ffmpeg.h"
 #include "cmdutils.h"
 
@@ -123,7 +122,6 @@ static int input_stream_potentially_available = 0;
 static int ignore_unknown_streams = 0;
 static int copy_unknown_streams = 0;
 static int find_stream_info = 1;
-static int AVCONV_DATADIR;
 
 static void uninit_options(OptionsContext* o)
 {

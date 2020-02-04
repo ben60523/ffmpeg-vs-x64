@@ -25,8 +25,8 @@
 #include <stdint.h>
 
 #include "libavutil/common.h"
-//#include "libavutil/reverse.h"
-//#include "config.h"
+#include "libavutil/reverse.h"
+#include "config.h"
 
 #define MAX_NEG_CROP 1024
 

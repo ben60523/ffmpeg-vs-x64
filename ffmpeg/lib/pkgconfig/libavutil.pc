@@ -1,11 +1,11 @@
-prefix=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug
+prefix=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug
 exec_prefix=${prefix}
-libdir=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug/lib
-includedir=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug/include
+libdir=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug/lib
+includedir=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug/include
 
 Name: libavutil
 Description: FFmpeg utility library
-Version: 56.38.100
+Version: 56.36.101
 Requires: 
 Requires.private: 
 Conflicts:
