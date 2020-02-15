@@ -6,7 +6,7 @@ includedir=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug/include
 Name: libpostproc
 Description: FFmpeg postprocessing library
 Version: 55.6.100
-Requires: libavutil >= 56.38.100
+Requires: libavutil >= 56.39.100
 Requires.private: 
 Conflicts:
 Libs: -L${libdir}  -lpostproc 

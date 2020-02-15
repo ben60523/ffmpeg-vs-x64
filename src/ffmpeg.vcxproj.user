@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-rtsp_transport tcp -i "rtsp://192.168.100.1/h264?h=1080&amp;w=1920&amp;BR=12000000&amp;fps=30" -b 6000k -vcodec copy -r 60 -y  output.MP4</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-rtsp_transport tcp -i "rtsp://192.168.100.1/h264?h=1080&amp;w=1920&amp;BR=12000000&amp;fps=30" -b 6000k -vcodec h264 -r 60 -y  output.MP4</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

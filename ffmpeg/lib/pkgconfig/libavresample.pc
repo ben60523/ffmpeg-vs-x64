@@ -1,12 +1,12 @@
-prefix=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug
+prefix=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug
 exec_prefix=${prefix}
-libdir=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug/lib
-includedir=/d/dev/vcpkg/packages/ffmpeg_x86-windows-static-mt-v142/debug/include
+libdir=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug/lib
+includedir=/c/dev/vcpkg/packages/ffmpeg_x64-windows-static-mt-v142/debug/include
 
 Name: libavresample
 Description: Libav audio resampling library
 Version: 4.0.0
-Requires: libavutil >= 56.36.101
+Requires: libavutil >= 56.39.100
 Requires.private: 
 Conflicts:
 Libs: -L${libdir}  -lavresample 
