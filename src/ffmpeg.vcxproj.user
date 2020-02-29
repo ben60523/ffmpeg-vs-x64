@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>-i "rtsp://192.168.1.1/h264?h=1080&amp;w=1920&amp;br=6000000&amp;fps=15&amp;" -preset ultrafast -vcodec h264 -acodec aac -ar 11025 -ac 1 -b:a 16k -r 20 1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-y -f vfwcap -r 25 -i 0 -vcodec copy ../x64/test.mp4</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-rtsp_transport tcp -i "rtsp://192.168.100.1/h264?h=1080&amp;w=1920&amp;BR=12000000&amp;fps=30" -b 6000k -vcodec h264 -r 60 -y  output.MP4</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-y -f vfwcap -r 25 -i 0 -vcodec copy ../x64/test.mp4</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
